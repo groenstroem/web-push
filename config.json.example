@@ -1,0 +1,4 @@
+{
+    "sub_email": "$SUB_EMAIL",
+    "vapid_key": "$VAPID_KEY"
+}
