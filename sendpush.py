@@ -15,7 +15,7 @@ with open('config.json') as config_file:
     config = json.load(config_file)
 
 # Use grønstrøm API to get contents of push message
-message = requests.get('https://grønstrøm.nu/api/v1/next-day').text
+message = requests.get('https://grønstrøm.nu/api/v1/next-day-short').text
 logging.info(f'Sending push message: {message}')
 
 # Get all subscriptions from SQLite database
